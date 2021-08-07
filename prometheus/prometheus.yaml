@@ -1,0 +1,6 @@
+scrape_configs:
+- job_name: claims
+  scrape_interval: 5s
+  metrics_path: /prometheus
+  static_configs:
+  - targets: ['root-spring-boot-service:8080', 'spring-boot-service-1:8081', 'spring-boot-service-2:8082', 'spring-boot-service-3:8083']
