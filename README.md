@@ -1,5 +1,5 @@
 # docker-compose
-Docker Compose for Java/SpringBoot, with Grafana and Prometheus integrations, for chained SpringBoot services. Uses Maven to interact with custom docker compose script.
+Docker Compose for Java/SpringBoot, with Grafana and Prometheus integrations, for chained SpringBoot services. Uses Maven to interact with custom docker compose script. Place all of this code inside your root SpringBoot application.
 
 This project uses [docker compose](https://docs.docker.com/compose/). Docker compose allows a project that has multiple dependencies to be ran in tandem across a network so that the whole project can be tested.
 
